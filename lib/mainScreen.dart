@@ -410,28 +410,3 @@ class _mainScreenState extends State<mainScreen> {
     );
   }
 }
-/*
-appBar: PreferredSize(
-          preferredSize: Size.fromHeight(30),
-          child: AppBar(
-            centerTitle: true,
-            backgroundColor: Colors.black87,
-            title: Text(
-              'HOLY QURAN',
-              style: TextStyle(fontSize: 20, color: Colors.white),
-            ),
-          ),
-        ),
-
-        //
-        ClassicGeneralDialogWidget(
-                                    titleText: 'List',
-                                    contentText: 'describe',
-                                    onPositiveClick: () {
-                                      Navigator.of(context).pop();
-                                    },
-                                    onNegativeClick: () {
-                                      Navigator.of(context).pop();
-                                    },
-                                  );
-        */
